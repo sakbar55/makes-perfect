@@ -74,7 +74,6 @@ describe "Learning about Class" do
   end
 
   it "When a big dog greets a red lizard it barks" do
-    skip
     lizard = Lizard.new("red")
     dog    = BigDog.new("Sparky")
 
