@@ -5,7 +5,6 @@ require_relative 'classes.rb'
 
 describe "Learning about Class" do
   it "Define a Dog class" do
-    skip
     assert_equal Class, Dog.class
   end
 
