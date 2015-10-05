@@ -15,3 +15,10 @@ class Dog
     end
   end
 end
+
+class BigDog < Dog
+  def initialize(name)
+    self.name = name
+    self.bark_volume = :loud
+  end
+end
