@@ -52,7 +52,6 @@ describe "Learning about Class" do
   end
 
   it "BigDog is a subclass of Dog" do
-    skip
     assert BigDog.ancestors.include?(Dog)
   end
 
