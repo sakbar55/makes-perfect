@@ -9,14 +9,12 @@ describe "Learning about Class" do
   end
 
   it "Dog's should be initialized with their names" do
-    skip
     dog = Dog.new("Riley")
 
     assert_equal "Riley", dog.name
   end
 
   it "Dog's names can be changed after being created" do
-    skip
     dog = Dog.new("Riley")
 
     dog.name = "Fido"
@@ -25,7 +23,6 @@ describe "Learning about Class" do
   end
 
   it "Dog's can bark" do
-    skip
     dog = Dog.new("Riley")
 
     assert_equal "woof!", dog.bark
