@@ -56,21 +56,18 @@ describe "Learning about Class" do
   end
 
   it "BigDogs also have names" do
-    skip
     loud_big_dog = BigDog.new("Fido")
 
     assert_equal "Fido", loud_big_dog.name
   end
 
   it "BigDog default bark_volume is :loud" do
-    skip
     loud_big_dog = BigDog.new("Fido")
 
     assert_equal "WOOF!", loud_big_dog.bark
   end
 
   it "Define a Lizard class that knows it's color" do
-    skip
     lizard = Lizard.new("green")
 
     assert_equal "green", lizard.color

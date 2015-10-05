@@ -22,3 +22,10 @@ class BigDog < Dog
     self.bark_volume = :loud
   end
 end
+
+class Lizard
+  attr_accessor :color
+  def initialize(color)
+    self.color = color
+  end
+end
