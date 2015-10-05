@@ -94,7 +94,6 @@ describe "Learning about Class" do
   end
 
   it "When a little dog greets a red lizard it does nothing" do
-    skip
     lizard = Lizard.new("red")
     dog    = Dog.new("Riley")
 
@@ -102,7 +101,6 @@ describe "Learning about Class" do
   end
 
   it "When a little dog greets a green lizard it does nothing" do
-    skip
     lizard = Lizard.new("green")
     dog    = Dog.new("Riley")
 

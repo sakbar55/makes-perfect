@@ -24,7 +24,7 @@ class BigDog < Dog
     self.name = name
     self.bark_volume = :loud
   end
-  
+
   def greet(lizard)
     if lizard.color == "red"
       return bark
